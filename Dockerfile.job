@@ -1,0 +1,3 @@
+FROM yyekhlef/sleep
+ENV SLEEP_VAR 'sleep'
+CMD /wait_for_me.sh
